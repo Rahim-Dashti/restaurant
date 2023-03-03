@@ -8,12 +8,12 @@ function pizza_list() {
         food_card.setAttribute('class', 'food-card')
 
         let food_pic = document.createElement('div')
-        food_pic.setAttribute('class', `food-pic-${i}`)
+        food_pic.setAttribute('class', `food-pic-${i} food-pic`)
         let food_pic_img = document.createElement('img')
         food_pic_img.setAttribute('src', `./img/pizza${i}.jpg`)
         food_pic_img.setAttribute('alt', 'food')
         food_pic_img.setAttribute('width', '100%')
-        food_pic_img.setAttribute('height', '50%')
+        food_pic_img.setAttribute('height', '100%')
         food_pic.appendChild(food_pic_img)
 
         let food_text = document.createElement('div')
@@ -42,12 +42,12 @@ function hamburger_list() {
         food_card.setAttribute('class', 'food-card')
 
         let food_pic = document.createElement('div')
-        food_pic.setAttribute('class', `food-pic-${i}`)
+        food_pic.setAttribute('class', `food-pic-${i} food-pic`)
         let food_pic_img = document.createElement('img')
         food_pic_img.setAttribute('src', `./img/ham${i}.jpg`)
         food_pic_img.setAttribute('alt', 'food')
         food_pic_img.setAttribute('width', '100%')
-        food_pic_img.setAttribute('height', '50%')
+        food_pic_img.setAttribute('height', '100%')
         food_pic.appendChild(food_pic_img)
 
         let food_text = document.createElement('div')
@@ -77,12 +77,12 @@ function misc_list() {
         food_card.setAttribute('class', 'food-card')
 
         let food_pic = document.createElement('div')
-        food_pic.setAttribute('class', `food-pic-${i}`)
+        food_pic.setAttribute('class', `food-pic-${i} food-pic`)
         let food_pic_img = document.createElement('img')
         food_pic_img.setAttribute('src', `./img/salad${i}.jpg`)
         food_pic_img.setAttribute('alt', 'food')
-        food_pic_img.setAttribute('width', '80%')
-        food_pic_img.setAttribute('height', '50%')
+        food_pic_img.setAttribute('width', '100%')
+        food_pic_img.setAttribute('height', '100%')
         food_pic.appendChild(food_pic_img)
 
         let food_text = document.createElement('div')
